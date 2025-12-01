@@ -1,0 +1,126 @@
+/* =======================
+   GLOBAL
+======================= */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+}
+
+/* =======================
+   SIDEBAR
+======================= */
+.sidebar {
+    position: fixed;
+    width: 240px;
+    height: 100vh;
+    background: #111827;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sidebar h2 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.sidebar a {
+    padding: 12px;
+    background: transparent;
+    color: #e5e7eb;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.sidebar a:hover {
+    background: #374151;
+    transform: translateX(5px);
+}
+
+/* =======================
+   MAIN CONTENT
+======================= */
+.main {
+    margin-left: 270px;
+    padding: 35px;
+}
+
+/* =======================
+   BUTTONS
+======================= */
+.btn {
+    padding: 10px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.2s ease;
+}
+
+.btn-success {
+    background: #27ae60;
+    color: white;
+}
+
+.btn-success:hover {
+    background: #219150;
+}
+
+/* =======================
+   TABLE WRAPPER
+======================= */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+table th {
+    background: #1e5fad;
+    color: white;
+    padding: 14px;
+    text-align: left;
+    font-weight: bold;
+}
+
+table td {
+    padding: 12px 14px;
+    background: #ffffff;
+    border-bottom: 1px solid #e0e6f1;
+}
+
+table tr:nth-child(even) td {
+    background: #f3f7ff;
+}
+
+/* Hover effect */
+table tr:hover td {
+    background: #e9f2ff;
+    cursor: pointer;
+}
+
+/* =======================
+   CARD
+======================= */
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 14px rgba(0,0,0,0.08);
+}
+
+/* =======================
+   NO DATA
+======================= */
+.no-data {
+    text-align: center;
+    padding: 15px;
+    background: #fff5f5;
+    color: #d9534f;
+    font-style: italic;
+}
